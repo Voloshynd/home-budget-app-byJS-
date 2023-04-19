@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300;600;700&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image:  linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("/images/money-g6a24ce180_1920.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+       
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+.title{
+    color:black;
+    margin: 5px;
+    font-size:1.6rem;
+    font-weight: 900; 
+    text-align: center;
+}
+p{
+    color: black;
+    margin-left: 2.5px;
+    font-weight: bold;
+}
+
+input{
+    margin-left: 5px;
+    
+}
+button{
+    margin-right: 5px;
+}
+li{
+    font-size: 1rem;
+    font-weight: bold;
+}
+#cash-balance{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 100px; 
+}
+.structure{
+    display: flex;
+}
+.income{
+    height:100%;  
+    margin-top: 20px;
+    border: 2.5px solid black;
+    border-radius: 10px 0 0 10px;
+    
+}
+.expenses{
+    margin-top: 20px;
+    border: 2.5px solid black;
+    border-radius: 10px;
+    border-radius: 0 10px 10px 0;
+    height: 100%;  
+}
+hr{
+    border: 1px solid black;
+}
+
+#sum-of-income{
+    width: 70px;
+}
+#sum-of-expenses{
+    width: 70px;
+}
+.total-sum{
+    margin: 10px 5px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    color: black;
+}
+.active{
+    display: flex; 
+    font-weight: 900;
+    font-size: 2.0rem; 
+    justify-content: center;
+    align-items: center;
+    color:black; 
+    text-align: center;
+}
+#buttonEditIncome{
+    margin-left: 5px;
+}
+#buttonEditExpense{
+    margin-left: 5px;
+}
+#total-expenses-sum{
+    font-size: 1.2rem;
+}
+#total-income-sum{
+    font-size: 1.2rem;
+}
+@media only screen and (max-width: 630px){
+    .structure{
+        display: block;
+        margin-top: 10px;
+    }
+    .expenses{
+        margin-bottom: 20px;
+    }
+} 
+@media only screen and (max-width: 420px){
+    #cash-balance{
+        width: 330px; 
+    }
+    
+} 
+@media only screen and (max-width: 665px){
+    #add-income{
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    #add-expenses{
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+} 
+@media only screen and (max-width: 630px){
+    .income{
+        border-radius: 10px;
+    }
+    .expenses{
+        border-radius: 10px;
+    }
+} 
+
