@@ -9,6 +9,7 @@
   "keywords": [],
   "author": "Dmytro Voloshyn",
   "license": "ISC",
+  "homepage": "https://github.com/Voloshynd/home-budget-app-byJS-",
   "devDependencies": {
     "gh-pages": "^5.0.0",
     "webpack": "^5.79.0",

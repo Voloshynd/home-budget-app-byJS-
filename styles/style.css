@@ -7,7 +7,7 @@ body {
 main{
     width: 100vw;
     height: 100vh;
-    background-image:  linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("/images/money-g6a24ce180_1920.jpg");
+    background-image:  linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./images/money-g6a24ce180_1920.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;  
